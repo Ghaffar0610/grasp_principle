@@ -26,3 +26,17 @@ class Checkout {
         paymentStrategy.pay(amount);
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        // Example of using CreditCardPayment
+        PaymentStrategy creditCardPayment = new CreditCardPayment();
+        Checkout checkout1 = new Checkout(creditCardPayment);
+        checkout1.completePayment(100.00); // Pays $100 with Credit Card
+
+        // Example of using PayPalPayment
+        PaymentStrategy paypalPayment = new PayPalPayment();
+        Checkout checkout2 = new Checkout(paypalPayment);
+        checkout2.completePayment(250.00); // Pays $250 with PayPal
+    }
+}
