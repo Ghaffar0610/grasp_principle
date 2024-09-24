@@ -53,10 +53,9 @@ The following example demonstrates how to protect a `Checkout` system from chang
 
 In this version, the `Checkout` class directly handles different payment methods, leading to tight coupling and reduced flexibility:
 
-```java
-
-****************** V I D E O *********************** 
 https://github.com/user-attachments/assets/03683ef5-a793-4c37-a52b-63885ec5c7f4
+
+```java
 
 class Checkout {
     public void completePaymentWithCreditCard(double amount) {
