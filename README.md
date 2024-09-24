@@ -74,3 +74,4 @@ public class Main {
 
 
 This version of the `README.md` keeps the explanation simple and demonstrates the difference between the unprotected and protected versions clearly, making it easy for viewers to understand the benefits of applying the **Protected Variations** principle.
+https://github.com/user-attachments/assets/03683ef5-a793-4c37-a52b-63885ec5c7f4
